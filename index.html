@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="A Javascript Hangman game."> 
+  <title>Hangman</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="pageHeader">
+    <h1 class="text-center">Hangman</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="game">
+      <h2>Play Hangman!</h2>
+      <p>The theme is great guitarists</p>
+      <button id="start" onclick="gameStart()">Start</button>
+      <div class="messeges">
+          <p><strong id="messages">Click "Start" to begin!</strong></p>
+      </div>
+
+      <ul id="wordLetters" class="gamePlay">
+         
+
+      </ul>
+      <div class="usedLetters">
+        <h3>Failed guesses</h3>
+        <p id="usedLetters"></p>
+      </div>
+      <p class="winLose">You have <span id="winLose">7</span> guesses left.</p>
+    </section>
+
+  </div><!-- /.container -->
+
+  <footer class="pageFooter">
+    <div class="container">
+      <p>&copy; 2018 Elliot Reed</p>
+    </div><!-- /.container -->
+  </footer>
+
+  <script src="assets/js/app.js"></script>  
+</body>
+</html>

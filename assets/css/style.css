@@ -1,0 +1,95 @@
+/* Elements --------------------------------------------------------------------------------------------------------------------*/
+body {
+  background-color: #FFEFDE;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color:#9D8063;
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+p {
+  margin:10px;
+}
+
+button {
+  background-color:#9D8063;
+  color:#FFF8F1;
+  padding: 1em 2em;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width:768px) {
+  .container {
+    width:90%;
+  }
+}
+
+.pageHeader,
+.pageFooter {
+  width: 100%;
+  background-color:#9D8063;
+  margin: 25px 0;
+  color:#FFF8F1;
+}
+
+.pageHeader {
+  height: 60px;
+  line-height: 60px;
+  top: 0;
+}
+
+.pageFooter {
+  position: fixed;
+  bottom: 0;
+}
+
+.messages {
+  height: 50px;
+  margin-top: 50px;
+}
+
+.gamePlay {
+  margin-top: 50px;
+}
+.underscores,
+.wordLetters {
+  margin: .5em;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 6px;
+  height: 1em;
+  width: 1em;
+  text-decoration: none;
+  text-align: center;
+}
+
+li {
+  padding-bottom: .5em;
+  float: left;
+}
+.bottom-border {
+  border-bottom: .25em solid #9D8063;
+}
+
+.hide-letter {
+  color: #FFEFDE;
+}
+
+.usedLetters {
+  margin: 75px 0;
+  clear: both;
+}
+/* Utilities ----------------------------------------------------------------------------------------------------------------------*/
+.text-center {
+  text-align: center;
+}
+
+
