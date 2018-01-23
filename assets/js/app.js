@@ -41,7 +41,7 @@ function gameStart() {
   // Display underscores and clear message
   displayAnswer(guitarist);
   displayMessage("");
-
+  displayGuessesLeft();
 
   // Get user input
     document.onkeyup = function(event) {
